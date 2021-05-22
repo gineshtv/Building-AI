@@ -1,25 +1,20 @@
 # Building-AI
 TEST 1
 
-import random
 
-def main():
-    probs = [0.8, 0.9, 1.0]
-    animals = ["dogs", "cats", "bats"]
-    prob = random.random()
-    favorite = ""
-    if prob < probs[0]:
-        favorite = animals[0]
-    elif prob >= probs[0] and prob < probs[1]:
-        favorite = animals[1]
-    elif prob >= probs[1] and prob < probs[2]:
-        favorite = animals[2]
-    else:
-        favorite = "coding errors"
-    print("I love " + favorite) 
+import math
+import numpy as np
 
-main()
+x = np.array([4, 3, 0])
+c1 = np.array([-.5, .1, .08])
+c2 = np.array([-.2, .2, .31])
+c3 = np.array([.5, -.1, 2.53])
 
+def sigmoid(c1):
+    # add your implementation of the sigmoid function here
+    test = sum(c1)
+    print(test)
 
-"## Summary"
-I love dogs
+# calculate the output of the sigmoid for x with all three coefficients
+
+sigmoid(c3)
