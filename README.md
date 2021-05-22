@@ -18,3 +18,7 @@ def sigmoid(c1):
 # calculate the output of the sigmoid for x with all three coefficients
 
 sigmoid(c3)
+
+## Summary
+
+Building AI course project
