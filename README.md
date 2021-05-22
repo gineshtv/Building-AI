@@ -22,3 +22,4 @@ sigmoid(c3)
 ## Summary
 
 Building AI course project
+
